@@ -1,0 +1,172 @@
+[
+
+ {
+    "id": "1",
+    "image":"./assets",
+    "category": "Shawarma",
+    "title": "Shawarma de carne",
+    "Description": [
+       "Pan árabe","Carne de Res",
+       "Lechuga","Tomate",  
+       "salsa tzatziki(yogurt)",
+       "Humus"
+    ],
+    "price": "$15.000"
+  },
+  {
+    "id": "2",
+    "image":"./assets",
+    "category": "Shawarma",
+    "title": "Shawarma de pollo",
+    "Description": [
+       "Pan árabe","Carne de pollo",
+       "Lechuga","Tomate",  
+       "salsa tzatziki(yogurt)",
+       "Humus"
+    ],
+    "price": "$15.000"
+  },
+  {
+    "id": "3",
+    "image":"./assets",
+    "category": "Shawarma",
+    "title": "Shawarma vegano",
+    "Description": [
+       "Pan árabe","falafel a base garbanzo, verduras y especies árabes",
+       "Lechuga","Tomate",  
+       "salsa tzatziki(yogurt)",
+       "Humus"
+    ],
+    "price": "$14.000"
+  },
+  {
+    "id": "4",
+    "image":"./assets",
+    "category": "Shawarma",
+    "title": "Shawarma mixto",
+    "Description": [
+       "Pan árabe","carne de pollo, res o falafel",
+       "Lechuga","Tomate",  
+       "salsa tzatziki(yogurt)",
+       "Humus"
+    ],
+    "Option 1":[
+      "Carne","Pollo",
+      "Kibbe","falafel"
+      ],
+      "Option 2":[ "Carne","Pollo",
+        "Kibbe","falafel"],
+    "price": "$16.500"
+  },
+
+  {
+    "id": "5",
+    "image":"./assets",
+    "category": "Combos",
+    "title": "Combo Badi",
+    "Description": [
+       "2 Shawarma","carne de pollo y falafel",
+       "Lechuga","Tomate",  
+       "salsa tzatziki(yogurt)",
+       "Humus", "+ 2 gaseosas 250ml + papas a la francesa"
+    ],
+    "price": "$36.000"
+  },
+  {
+    "id": "6",
+    "image":"./assets",
+    "category": "Combos",
+    "title": "Combo Aram",
+    "Description": [
+       "Shawarma","carne de pollo y res",
+       "Lechuga","Tomate",  
+       "salsa tzatziki(yogurt)",
+       "Humus", "+ 2 falafel","crema de humus", "Ensalada Tabule"
+    ],
+    "price": "$24.000"
+  },
+  {
+    "id": "7",
+    "image":"./assets",
+    "category": "Combos",
+    "title": "Combo Habib",
+    "Description": [
+       "Shawarma","carne de pollo",
+       "Lechuga","Tomate",  
+       "salsa tzatziki(yogurt)",
+       "Humus", "+ 2 kibbe","crema de humus", "Ensalada Tabule"
+    ],
+    "price": "$25.000"
+  },
+  
+  {
+    "id": "8",
+    "image":"./assets",
+    "category": "Entradas",
+    "title": "Falafel",
+    "Description": [
+       "Croquetas de garbanzo","3 unidades","+ salsa tzatziki(yogurt"   
+    ],
+    "price": "$12.000"
+  },
+  {
+    "id": "9",
+    "image":"./assets",
+    "category": "Entradas",
+    "title": "Kibbe",
+    "Description": [
+       "Croquetas de trigo y carne","3 unidades","+ salsa tzatziqui(yogurt)"   
+    ],
+    "price": "$14.000"
+  },
+  {
+    "id": "10",
+    "image":"./assets",
+    "category": "Entradas",
+    "title": "Tabbule",
+    "Description": [
+       "Trigo Bulgur","perejil liso"," tomate", "cebolla", "y hierbabuena"   
+    ],
+    "price": "$12.500"
+  },
+  {
+    "id": "11",
+    "image":"./assets",
+    "category": "Entradas",
+    "title": "Hummus",
+    "Description": [
+       "Crema de garbanzo"," tahini", "aceite de oliva y especias"   
+    ],
+    "price": "$12.000"
+  },
+
+  {
+    "id": "12",
+    "image":"./assets",
+    "category": "Bebidas",
+    "title": "Gaseosa",
+    "Description": [
+       "Gaseosas"   
+    ],
+    "Option":[
+      "Pepsi","Coca-cola",
+      "Postobon","Colombiana"
+      ],
+    "price": "$4.500"
+  },
+  {
+    "id": "13",
+    "image":"./assets",
+    "category": "Bebidas",
+    "title": "Limonadas",
+    "Description": [
+       "Limonadas exóticas 12oz"   
+    ],
+    "Option":[
+      "Limonada con hierbabuena","Limonada de Coco",
+      "Limonada de lulada  "
+      ],
+    "price": "$8.500"
+  }
+
+]

@@ -1,0 +1,96 @@
+.menulist {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+   
+}
+
+
+
+
+.circlebtn1{
+   display: block;
+    width:150px;
+    height:150px;
+    line-height:80px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background-image: url('../../components/assets/images/Circlemenu/shawarma.jpg');
+    background-size: cover;
+    cursor: pointer;
+
+  
+
+}
+
+.circlebtn1:hover {
+    opacity: 0.5;
+}
+.circlebtn2{
+   display: block;
+    width:150px;
+    height:150px;
+    line-height:80px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background-image: url('../../components/assets/images/Circlemenu/combos.jpg');
+    background-size: cover;
+    cursor: pointer;
+
+  
+
+}
+
+.circlebtn2:hover {
+    opacity: 0.5;
+}
+.circlebtn3{
+    display: block;
+     width:150px;
+     height:150px;
+     line-height:80px;
+     border: 2px solid #f5f5f5;
+     border-radius: 50%;
+     color:#f5f5f5;
+     text-align:center;
+     text-decoration:none;
+     background-image: url('../../components/assets/images/Circlemenu/entradas.jpg');
+     background-size: cover;
+     cursor: pointer;
+ 
+ 
+ }
+ 
+ .circlebtn3:hover {
+     opacity: 0.5;
+ }
+ .circlebtn4{
+    display: block;
+     width:150px;
+     height:150px;
+     line-height:80px;
+     border: 2px solid #f5f5f5;
+     border-radius: 50%;
+     color:#f5f5f5;
+     text-align:center;
+     text-decoration:none;
+     background-image: url('../../components/assets/images/Circlemenu/bebidas.jpg');
+    background-size: cover;
+     cursor: pointer;
+ 
+   
+ 
+ }
+ 
+ .circlebtn4:hover {
+     opacity: 0.5;
+ }
+
+

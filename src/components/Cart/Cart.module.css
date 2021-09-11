@@ -1,0 +1,33 @@
+.container{
+   margin-left: 100px;
+   width: 100px;
+   height: 80px;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   cursor: pointer;
+   
+    
+}
+i{
+    margin-top: 5px;
+    color:white;
+    height: auto;
+    margin-left: 50px;
+}
+span{
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+
+.count{
+    margin-left: 50px;
+    padding-top: 5px;
+    text-align: center;
+    background-color:#5EA23A;
+    color:white;
+    font-size: 15px;
+    
+}
