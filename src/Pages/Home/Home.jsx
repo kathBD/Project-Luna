@@ -1,9 +1,11 @@
 
 import React from 'react'
 import HomeCss from '../Home/Home.module.css'
-import Card from '../../components/Card/Card'
+
 import { Navbar } from '../../components/Layout/Navbar/Navbar'
 import { Link } from 'react-router-dom'
+import MorePopular from '../../components/Morepopular/MorePopular'
+import Footer from '../../components/Layout/Footer'
 
 
 
@@ -30,8 +32,9 @@ const Home = () => {
                   </div>
             </div>
             <hr />
-            <Card />
-
+         
+           <MorePopular/>
+           <Footer/>
         </div>
     )
 }

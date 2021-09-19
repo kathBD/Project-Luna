@@ -24,7 +24,7 @@
 
 .container {
   display: block;
-  background-image: url("../assets/images/heroimg.png");
+  background-image: url("../assets/images/heros/heroimg.png");
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: hidden;
@@ -45,12 +45,14 @@ video {
   position: relative;
 }
 .btn {
+  width: 150px;
   border: 2px solid white;
   padding: 8px 10px;
   position: absolute;
    margin-top: 150px;
     top: 50%;
     left: 45%;
+    text-align: center;
   background-color: #171717;
   border-radius: 1.5em;
   color:#5ea23a;

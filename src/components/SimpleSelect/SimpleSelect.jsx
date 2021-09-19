@@ -39,12 +39,13 @@ const useStyles = makeStyles((theme) => ({
           value={Option}
           onChange={handleChange}
         >
-          
+           <MenuItem value="">
+            <em>Ninguna</em>
+          </MenuItem>
           <MenuItem value={'Carne y pollo'}>Carne y pollo</MenuItem>
           <MenuItem value={'Pollo y Kibbe'}>Pollo y Kibebe</MenuItem>
-          <MenuItem value={'Kibbe y pollo'}>Kibbe y pollo</MenuItem>
           <MenuItem value={'Falafel y pollo'}>Falafel y pollo</MenuItem>
-          <MenuItem value={'Falafel y Kibbe'}>Falafel y Kibbe</MenuItem>
+          <MenuItem value={'Falafel y carne'}>Falafel y Kibbe</MenuItem>
         </Select>
       </FormControl>
     </div>

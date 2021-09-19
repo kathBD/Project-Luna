@@ -5,7 +5,7 @@
 
 .nav{
     max-width: 100VW;
-    height: 100px;
+    min-height: 70px;
     border-radius: 15px;
     background-color: #1c1c1c;
     margin: 20px 15px 10px 15px;
@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
    
     
    
@@ -72,18 +73,48 @@ li{
     font-size: 25px;
 }
 
-.cart{
+.container{
     flex: 20%;
+    position: relative;
     width: 50px;
     display: block;
-    padding-right: 100px;
+    padding-right: 140px;
+    cursor: pointer;
  
 
   
 }
-ul.show{
-    top:60px
+
+span{
+ border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+
+ 
 }
+
+
+.count{
+    margin-left: 50px;
+    padding-top: 5px;
+    text-align: center;
+    background-color:#5EA23A;
+    color:white;
+    font-size: 15px;
+    z-index: 10;
+ 
+    
+}
+
+
+.icon{
+    margin-top: 5px;
+    color:white;
+    height: auto;
+    margin-left: 50px;
+}
+
 
 @media scree and (max-width: 952px){
   .logo{

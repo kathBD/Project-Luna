@@ -1,9 +1,8 @@
 import React from 'react'
-
 import NavCSS from './Navbar.module.css'
 import {Link} from 'react-router-dom'
 import Logo from '../../assets/Logo/logo.JPG'
-import Cart from '../../Cart/Cart'
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
 
 const Navbar = () => {
@@ -12,7 +11,7 @@ const Navbar = () => {
     return (
         <>
    
-       
+    
             <div className={NavCSS.nav}>
                 <div >
                 <Link to ='/Hero' className={NavCSS.logo} >
@@ -46,12 +45,20 @@ const Navbar = () => {
                    Bebidas
                     </Link>
                 </li>
+                <li></li>
             </ul>
           
             </div>
+            <div>
+
+            </div>
             <div className={NavCSS.cart}>
             <Link to ='/Cart'>
-                <Cart/>
+            <div className={NavCSS.container}>  
+        
+             <span className={NavCSS.count}></span>  
+            <i className={NavCSS.icon}><ShoppingCartIcon  fontSize="large" />  </i>
+           </div>
             </Link>
             </div>
      

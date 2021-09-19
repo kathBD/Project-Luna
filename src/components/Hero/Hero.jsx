@@ -16,7 +16,7 @@ const Hero = () => {
                  <img src={Logo} width="120px" alt="logo" />
                 </Link>
                 </div>  
-             <Link/>
+         
             </div>  
         </nav>
         <section>
