@@ -1,24 +1,67 @@
 
 
-*{
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+.featured{
+    margin-top: 30px;
+    height: 350px;
+    width: 600px;
+    border-radius: 8px;
+    display: flex;
+    align-content: center;
+    margin-bottom: 100px;git 
+   
 }
 .container{
-    background-color:#5ea23a;
-        max-width: 100VW;
-        min-height: 70px;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-
+    width: 600px;
+    display:inline;
+    margin-left: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
 
 }
 
-.footer{
-    font-size: medium;
-        
-        
-    }
+
+
+.img{
+    background-image:url('../assets/images/heros/combofavorito.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 600px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px, 1px 10px rgba(0,0,0,0.2);
+    height: 250px;
+    cursor: pointer;
+
+  
+}
+.img:hover{
+    opacity: 0.5;
+}
+
+
+
+.sale{
+    display: block;
+    margin-left: 400px;
+    margin-bottom: 30px;
+   
+
+}
+
+i{
+    color: #5ea23a;
+    text-decoration: none;
+    margin-bottom: 30px;
+    
+
+
+}
+link{
+    text-decoration: none;
+    margin-right: 400px;
+  
+   
+
+}
